@@ -64,10 +64,10 @@ packages:
     #
     # you can specify usernames/groupnames (depending on your auth plugin)
     # and three keywords: "$all", "$anonymous", "$authenticated"
-    allow_access: $all
+    allow_access: $authenticated
 
     # allow 'admin' to publish packages
-    allow_publish: admin;jvdamgaard
+    allow_publish: $authenticated
 
     # if package is not available locally, proxy requests to 'npmjs' registry
     proxy: npmjs
