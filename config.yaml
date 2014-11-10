@@ -17,7 +17,7 @@ web:
   # this has a lot of issues, e.g. no auth yet, so use at your own risk
   enable: true
 
-  title: Sinopia
+  title: Dansk Supermarked NPM Registry
   # logo: logo.png
 
 auth:
