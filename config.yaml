@@ -80,7 +80,7 @@ packages:
 #url_prefix: https://dev.company.local/sinopia/
 
 # you can specify listen address (or simply a port)
-listen: 80
+#listen: localhost:4873
 
 # type: file | stdout | stderr
 # level: trace | debug | info | http (default) | warn | error | fatal
