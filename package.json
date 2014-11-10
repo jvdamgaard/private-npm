@@ -1,14 +1,14 @@
 {
-    "name": "private-npm",
-    "version": "1.0.0",
-    "description": "Private npm",
-    "main": "index.js",
-    "scripts": {
-        "start": "sinopia"
-    },
-    "author": "Jakob Viskum Damgaard",
-    "license": "ISC",
-    "dependencies": {
-        "sinopia": "0.13.2"
-    }
+  "name": "private-npm",
+  "version": "1.0.0",
+  "description": "Private npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "sinopia --listen $port"
+  },
+  "author": "Jakob Viskum Damgaard",
+  "license": "ISC",
+  "dependencies": {
+    "sinopia": "0.13.2"
+  }
 }
